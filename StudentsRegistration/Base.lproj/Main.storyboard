@@ -94,6 +94,9 @@
                         <viewLayoutGuide key="safeArea" id="gRn-Pb-fhG"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Display" image="visible" id="pYb-gf-Piv"/>
+                    <connections>
+                        <outlet property="studentTableView" destination="ltw-dm-l6v" id="S4F-vT-MPz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KS4-EE-Puo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
