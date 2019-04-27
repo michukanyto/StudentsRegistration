@@ -16,6 +16,7 @@
 		F915598C226FADA100F62EB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F915598A226FADA100F62EB4 /* LaunchScreen.storyboard */; };
 		F9155994226FC81E00F62EB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9155993226FC81E00F62EB4 /* GoogleService-Info.plist */; };
 		F91559B92270BCC300F62EB4 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91559B82270BCC300F62EB4 /* DisplayViewController.swift */; };
+		F9AF71DB2274159B00D0BACC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF71DA2274159B00D0BACC /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F915598D226FADA100F62EB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9155993226FC81E00F62EB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F91559B82270BCC300F62EB4 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
+		F9AF71DA2274159B00D0BACC /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		F915597D226FADA000F62EB4 /* StudentsRegistration */ = {
 			isa = PBXGroup;
 			children = (
+				F9AF71D92274157D00D0BACC /* Model */,
 				F915597E226FADA000F62EB4 /* AppDelegate.swift */,
 				F9155980226FADA000F62EB4 /* ViewController.swift */,
 				F91559B82270BCC300F62EB4 /* DisplayViewController.swift */,
@@ -95,6 +98,14 @@
 				F9155985226FADA000F62EB4 /* StudentsRegistration.xcdatamodeld */,
 			);
 			path = StudentsRegistration;
+			sourceTree = "<group>";
+		};
+		F9AF71D92274157D00D0BACC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9AF71DA2274159B00D0BACC /* Student.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +299,7 @@
 				F9155987226FADA000F62EB4 /* StudentsRegistration.xcdatamodeld in Sources */,
 				F9155981226FADA000F62EB4 /* ViewController.swift in Sources */,
 				F915597F226FADA000F62EB4 /* AppDelegate.swift in Sources */,
+				F9AF71DB2274159B00D0BACC /* Student.swift in Sources */,
 				F91559B92270BCC300F62EB4 /* DisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
