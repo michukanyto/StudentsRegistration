@@ -76,18 +76,28 @@
         <!--Display-->
         <scene sceneID="FT1-1b-m2N">
             <objects>
-                <viewController id="0bE-Z2-8RG" sceneMemberID="viewController">
+                <viewController id="0bE-Z2-8RG" customClass="DisplayViewController" customModule="StudentsRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bG2-qA-5BO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ltw-dm-l6v">
+                                <rect key="frame" x="20" y="44" width="374" height="769"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ltw-dm-l6v" firstAttribute="centerX" secondItem="bG2-qA-5BO" secondAttribute="centerX" id="D9J-Vx-snh"/>
+                            <constraint firstItem="ltw-dm-l6v" firstAttribute="centerY" secondItem="bG2-qA-5BO" secondAttribute="centerY" id="iTt-Vb-b4k"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="gRn-Pb-fhG"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Display" image="visible" id="pYb-gf-Piv"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KS4-EE-Puo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-293" y="611"/>
+            <point key="canvasLocation" x="-294.20289855072468" y="610.71428571428567"/>
         </scene>
         <!--Student Managment-->
         <scene sceneID="onn-NJ-TuK">
@@ -154,8 +164,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update Student" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGb-J0-3pY">
-                                <rect key="frame" x="122" y="144" width="170" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Update" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZGb-J0-3pY">
+                                <rect key="frame" x="118" y="88" width="179" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="M8y-Ic-tNq"/>
+                                    <constraint firstAttribute="width" constant="179" id="rTo-p2-uDC"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -163,16 +177,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZGb-J0-3pY" firstAttribute="centerX" secondItem="Oxx-V7-fAb" secondAttribute="centerX" id="8wU-Hh-bRd"/>
-                            <constraint firstItem="ZGb-J0-3pY" firstAttribute="top" secondItem="iFU-h5-Fhj" secondAttribute="top" constant="56" id="icr-ed-I6c"/>
-                            <constraint firstItem="ZGb-J0-3pY" firstAttribute="leading" secondItem="iFU-h5-Fhj" secondAttribute="leading" constant="122" id="zqb-NE-c9B"/>
+                            <constraint firstItem="ZGb-J0-3pY" firstAttribute="top" secondItem="iFU-h5-Fhj" secondAttribute="top" id="8nl-c0-5OS"/>
+                            <constraint firstItem="iFU-h5-Fhj" firstAttribute="trailing" secondItem="ZGb-J0-3pY" secondAttribute="trailing" constant="117" id="JAE-7B-fa8"/>
+                            <constraint firstItem="ZGb-J0-3pY" firstAttribute="leading" secondItem="iFU-h5-Fhj" secondAttribute="leading" constant="118" id="UdH-V1-8dE"/>
+                            <constraint firstItem="iFU-h5-Fhj" firstAttribute="bottom" secondItem="ZGb-J0-3pY" secondAttribute="bottom" constant="695" id="nah-d0-FuY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="iFU-h5-Fhj"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YZl-Ny-Cx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2629" y="968"/>
+            <point key="canvasLocation" x="2628.985507246377" y="967.63392857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="qJJ-bg-Fsc">
@@ -182,8 +197,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Student" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pId-dq-pzU">
-                                <rect key="frame" x="136" y="144" width="163" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyl-4G-g9B">
+                                <rect key="frame" x="118" y="88" width="179" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="179" id="deB-Pv-pyi"/>
+                                    <constraint firstAttribute="height" constant="30" id="flq-aH-U4d"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -191,9 +210,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="pId-dq-pzU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Kve-54-kau" secondAttribute="leading" id="BfQ-Y3-5JP"/>
-                            <constraint firstItem="pId-dq-pzU" firstAttribute="top" secondItem="Kve-54-kau" secondAttribute="top" constant="56" id="r3p-Xz-Ezy"/>
-                            <constraint firstItem="Kve-54-kau" firstAttribute="trailing" secondItem="pId-dq-pzU" secondAttribute="trailing" constant="115" id="r8a-P8-EOE"/>
+                            <constraint firstItem="iyl-4G-g9B" firstAttribute="top" secondItem="Kve-54-kau" secondAttribute="top" id="Jms-32-UMR"/>
+                            <constraint firstItem="iyl-4G-g9B" firstAttribute="leading" secondItem="Kve-54-kau" secondAttribute="leading" constant="118" id="VSf-Ce-7XE"/>
+                            <constraint firstItem="Kve-54-kau" firstAttribute="bottom" secondItem="iyl-4G-g9B" secondAttribute="bottom" constant="695" id="b6a-yU-14c"/>
+                            <constraint firstItem="Kve-54-kau" firstAttribute="trailing" secondItem="iyl-4G-g9B" secondAttribute="trailing" constant="117" id="pON-bz-Vo1"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Kve-54-kau"/>
                     </view>
