@@ -85,29 +85,30 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="808"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="DCx-gc-Uqm">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="JJq-4t-c9j">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DCx-gc-Uqm" id="nZS-gM-agh">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JJq-4t-c9j" id="qFY-C9-10a">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="ltw-dm-l6v" firstAttribute="centerX" secondItem="bG2-qA-5BO" secondAttribute="centerX" id="D9J-Vx-snh"/>
-                            <constraint firstItem="ltw-dm-l6v" firstAttribute="leading" secondItem="bG2-qA-5BO" secondAttribute="leading" id="EBQ-vo-1nO"/>
-                            <constraint firstItem="ltw-dm-l6v" firstAttribute="top" secondItem="gRn-Pb-fhG" secondAttribute="top" id="gpY-fE-KiB"/>
+                            <constraint firstItem="ltw-dm-l6v" firstAttribute="top" secondItem="gRn-Pb-fhG" secondAttribute="top" id="Uod-N2-cuM"/>
                             <constraint firstItem="ltw-dm-l6v" firstAttribute="centerY" secondItem="bG2-qA-5BO" secondAttribute="centerY" id="iTt-Vb-b4k"/>
+                            <constraint firstItem="ltw-dm-l6v" firstAttribute="leading" secondItem="bG2-qA-5BO" secondAttribute="leading" id="ixX-OJ-mw3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gRn-Pb-fhG"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Display" image="visible" id="pYb-gf-Piv"/>
                     <connections>
-                        <outlet property="studentTableView" destination="ltw-dm-l6v" id="S4F-vT-MPz"/>
+                        <outlet property="studentTableView" destination="ltw-dm-l6v" id="3qO-ya-J0n"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KS4-EE-Puo" userLabel="First Responder" sceneMemberID="firstResponder"/>
