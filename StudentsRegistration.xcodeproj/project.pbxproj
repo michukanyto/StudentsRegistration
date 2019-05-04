@@ -17,6 +17,7 @@
 		F9155994226FC81E00F62EB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9155993226FC81E00F62EB4 /* GoogleService-Info.plist */; };
 		F91559B92270BCC300F62EB4 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91559B82270BCC300F62EB4 /* DisplayViewController.swift */; };
 		F9AF71DB2274159B00D0BACC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF71DA2274159B00D0BACC /* Student.swift */; };
+		F9F91278227E40FD000ECA7C /* CreateUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F9155993226FC81E00F62EB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F91559B82270BCC300F62EB4 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		F9AF71DA2274159B00D0BACC /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				F915597E226FADA000F62EB4 /* AppDelegate.swift */,
 				F9155980226FADA000F62EB4 /* ViewController.swift */,
 				F91559B82270BCC300F62EB4 /* DisplayViewController.swift */,
+				F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */,
 				F9155982226FADA000F62EB4 /* Main.storyboard */,
 				F9155988226FADA100F62EB4 /* Assets.xcassets */,
 				F915598A226FADA100F62EB4 /* LaunchScreen.storyboard */,
@@ -300,6 +303,7 @@
 				F9155981226FADA000F62EB4 /* ViewController.swift in Sources */,
 				F915597F226FADA000F62EB4 /* AppDelegate.swift in Sources */,
 				F9AF71DB2274159B00D0BACC /* Student.swift in Sources */,
+				F9F91278227E40FD000ECA7C /* CreateUpdateViewController.swift in Sources */,
 				F91559B92270BCC300F62EB4 /* DisplayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
