@@ -18,6 +18,7 @@
 		F91559B92270BCC300F62EB4 /* DisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91559B82270BCC300F62EB4 /* DisplayViewController.swift */; };
 		F9AF71DB2274159B00D0BACC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF71DA2274159B00D0BACC /* Student.swift */; };
 		F9F91278227E40FD000ECA7C /* CreateUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */; };
+		F9F9127A227F4638000ECA7C /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91279227F4638000ECA7C /* DeleteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F91559B82270BCC300F62EB4 /* DisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayViewController.swift; sourceTree = "<group>"; };
 		F9AF71DA2274159B00D0BACC /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUpdateViewController.swift; sourceTree = "<group>"; };
+		F9F91279227F4638000ECA7C /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				F915598D226FADA100F62EB4 /* Info.plist */,
 				F9155993226FC81E00F62EB4 /* GoogleService-Info.plist */,
 				F9155985226FADA000F62EB4 /* StudentsRegistration.xcdatamodeld */,
+				F9F91279227F4638000ECA7C /* DeleteViewController.swift */,
 			);
 			path = StudentsRegistration;
 			sourceTree = "<group>";
@@ -301,6 +304,7 @@
 			files = (
 				F9155987226FADA000F62EB4 /* StudentsRegistration.xcdatamodeld in Sources */,
 				F9155981226FADA000F62EB4 /* ViewController.swift in Sources */,
+				F9F9127A227F4638000ECA7C /* DeleteViewController.swift in Sources */,
 				F915597F226FADA000F62EB4 /* AppDelegate.swift in Sources */,
 				F9AF71DB2274159B00D0BACC /* Student.swift in Sources */,
 				F9F91278227E40FD000ECA7C /* CreateUpdateViewController.swift in Sources */,
