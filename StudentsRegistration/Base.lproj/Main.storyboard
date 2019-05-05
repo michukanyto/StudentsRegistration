@@ -65,8 +65,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymx-TM-X7G">
-                                <rect key="frame" x="118" y="44" width="179" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OA-Qx-mNb">
+                                <rect key="frame" x="20" y="261" width="224" height="25.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="70000" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="8s0-ah-ydz">
+                                <rect key="frame" x="20" y="299" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Sl-uX-0sW">
+                                <rect key="frame" x="150" y="388" width="114" height="68"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="Delete">
+                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymx-TM-X7G">
+                                <rect key="frame" x="118" y="74" width="179" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3su-GH-y3C"/>
                                     <constraint firstAttribute="width" constant="179" id="oCk-zd-XAI"/>
@@ -75,31 +95,26 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="User Id" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OA-Qx-mNb">
-                                <rect key="frame" x="20" y="261" width="224" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="70000" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="8s0-ah-ydz">
-                                <rect key="frame" x="20" y="299" width="374" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Sl-uX-0sW">
-                                <rect key="frame" x="150" y="388" width="114" height="68"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                <state key="normal" title="Delete">
-                                    <color key="titleColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3Sl-uX-0sW" firstAttribute="top" secondItem="8s0-ah-ydz" secondAttribute="bottom" constant="59" id="8hx-QX-BSo"/>
+                            <constraint firstItem="ddu-wb-v6t" firstAttribute="trailing" secondItem="1OA-Qx-mNb" secondAttribute="trailing" constant="170" id="A8Y-Mn-86Z"/>
+                            <constraint firstItem="ddu-wb-v6t" firstAttribute="trailing" secondItem="3Sl-uX-0sW" secondAttribute="trailing" constant="150" id="Gig-yt-coa"/>
+                            <constraint firstItem="ddu-wb-v6t" firstAttribute="trailing" secondItem="ymx-TM-X7G" secondAttribute="trailing" constant="117" id="JyN-Oa-K8n"/>
+                            <constraint firstItem="ddu-wb-v6t" firstAttribute="trailing" secondItem="8s0-ah-ydz" secondAttribute="trailing" constant="20" id="Mxh-2x-bun"/>
+                            <constraint firstItem="1OA-Qx-mNb" firstAttribute="top" secondItem="ymx-TM-X7G" secondAttribute="bottom" constant="157" id="Npl-Q7-4Ij"/>
+                            <constraint firstItem="ymx-TM-X7G" firstAttribute="top" secondItem="ddu-wb-v6t" secondAttribute="top" constant="30" id="SyR-Tb-83z"/>
+                            <constraint firstItem="3Sl-uX-0sW" firstAttribute="leading" secondItem="ddu-wb-v6t" secondAttribute="leading" constant="150" id="THa-ha-yiS"/>
+                            <constraint firstItem="ddu-wb-v6t" firstAttribute="trailing" secondItem="ymx-TM-X7G" secondAttribute="trailing" constant="117" id="UHv-Jw-Gne"/>
+                            <constraint firstItem="ddu-wb-v6t" firstAttribute="bottom" secondItem="3Sl-uX-0sW" secondAttribute="bottom" constant="357" id="YoK-qC-ag0"/>
+                            <constraint firstItem="8s0-ah-ydz" firstAttribute="top" secondItem="1OA-Qx-mNb" secondAttribute="bottom" constant="8" id="aYG-NQ-4us"/>
+                            <constraint firstItem="ymx-TM-X7G" firstAttribute="leading" secondItem="ddu-wb-v6t" secondAttribute="leading" constant="118" id="gqk-lQ-hCN"/>
+                            <constraint firstItem="8s0-ah-ydz" firstAttribute="leading" secondItem="ddu-wb-v6t" secondAttribute="leading" constant="20" id="j8t-Cb-bLw"/>
+                            <constraint firstItem="ymx-TM-X7G" firstAttribute="leading" secondItem="ddu-wb-v6t" secondAttribute="leading" constant="118" id="nTS-Xj-Mo3"/>
+                            <constraint firstItem="ymx-TM-X7G" firstAttribute="top" secondItem="ddu-wb-v6t" secondAttribute="top" constant="30" id="oq8-5T-BSq"/>
+                            <constraint firstItem="1OA-Qx-mNb" firstAttribute="leading" secondItem="ddu-wb-v6t" secondAttribute="leading" constant="20" id="y3N-cf-Sx8"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="ddu-wb-v6t"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Delete" image="cancel" selectedImage="cancel" id="YdM-2N-8KV"/>
@@ -190,6 +205,15 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="XYw-ux-vDy" secondAttribute="trailing" id="19Y-fv-lFl"/>
+                                    <constraint firstItem="XYw-ux-vDy" firstAttribute="leading" secondItem="2Lx-tc-eTV" secondAttribute="leading" id="AwT-Ev-H1R"/>
+                                    <constraint firstItem="XYw-ux-vDy" firstAttribute="top" secondItem="2Lx-tc-eTV" secondAttribute="top" id="Axv-Bt-7TK"/>
+                                    <constraint firstItem="2ko-sL-cuq" firstAttribute="top" secondItem="XYw-ux-vDy" secondAttribute="bottom" constant="39" id="MtY-0d-l1b"/>
+                                    <constraint firstAttribute="trailing" secondItem="2ko-sL-cuq" secondAttribute="trailing" id="fFQ-Xk-fMw"/>
+                                    <constraint firstItem="2ko-sL-cuq" firstAttribute="leading" secondItem="2Lx-tc-eTV" secondAttribute="leading" id="kCe-93-0IA"/>
+                                    <constraint firstAttribute="bottom" secondItem="2ko-sL-cuq" secondAttribute="bottom" id="pim-C1-qR2"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
