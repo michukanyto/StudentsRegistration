@@ -94,6 +94,7 @@
 				F915597E226FADA000F62EB4 /* AppDelegate.swift */,
 				F9155980226FADA000F62EB4 /* ViewController.swift */,
 				F91559B82270BCC300F62EB4 /* DisplayViewController.swift */,
+				F9F91279227F4638000ECA7C /* DeleteViewController.swift */,
 				F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */,
 				F9155982226FADA000F62EB4 /* Main.storyboard */,
 				F9155988226FADA100F62EB4 /* Assets.xcassets */,
@@ -101,7 +102,6 @@
 				F915598D226FADA100F62EB4 /* Info.plist */,
 				F9155993226FC81E00F62EB4 /* GoogleService-Info.plist */,
 				F9155985226FADA000F62EB4 /* StudentsRegistration.xcdatamodeld */,
-				F9F91279227F4638000ECA7C /* DeleteViewController.swift */,
 			);
 			path = StudentsRegistration;
 			sourceTree = "<group>";
