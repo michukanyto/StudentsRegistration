@@ -209,10 +209,10 @@
             </objects>
             <point key="canvasLocation" x="1858" y="611"/>
         </scene>
-        <!--View Controller-->
+        <!--Update View Controller-->
         <scene sceneID="BIB-fJ-a7s">
             <objects>
-                <viewController id="tO3-r8-dcI" sceneMemberID="viewController">
+                <viewController id="tO3-r8-dcI" customClass="UpdateViewController" customModule="StudentsRegistration" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Oxx-V7-fAb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,6 +243,9 @@
                         <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="iFU-h5-Fhj"/>
                     </view>
+                    <connections>
+                        <outlet property="studentTableView" destination="xiU-T2-TRD" id="TZJ-Gq-onb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YZl-Ny-Cx3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
