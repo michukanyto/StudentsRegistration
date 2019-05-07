@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         }
         //Set ourselves as the delegate
         authUI?.delegate = self as FUIAuthDelegate
-        authUI?.providers = [FUIEmailAuth(),FUIGoogleAuth()]
+        authUI?.providers = [FUIEmailAuth()]//Which kind of authentication(gmail,fb,etc)
         //Get a reference to the Auth UI view Controller
         let authViewController = authUI!.authViewController()
         //show it
