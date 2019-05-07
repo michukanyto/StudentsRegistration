@@ -19,6 +19,7 @@
 		F9AF71DB2274159B00D0BACC /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9AF71DA2274159B00D0BACC /* Student.swift */; };
 		F9F91278227E40FD000ECA7C /* CreateUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */; };
 		F9F9127A227F4638000ECA7C /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F91279227F4638000ECA7C /* DeleteViewController.swift */; };
+		F9F9127C2281ED1C000ECA7C /* UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F9127B2281ED1C000ECA7C /* UpdateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F9AF71DA2274159B00D0BACC /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 		F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUpdateViewController.swift; sourceTree = "<group>"; };
 		F9F91279227F4638000ECA7C /* DeleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		F9F9127B2281ED1C000ECA7C /* UpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +95,10 @@
 				F9AF71D92274157D00D0BACC /* Model */,
 				F915597E226FADA000F62EB4 /* AppDelegate.swift */,
 				F9155980226FADA000F62EB4 /* ViewController.swift */,
+				F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */,
 				F91559B82270BCC300F62EB4 /* DisplayViewController.swift */,
 				F9F91279227F4638000ECA7C /* DeleteViewController.swift */,
-				F9F91277227E40FD000ECA7C /* CreateUpdateViewController.swift */,
+				F9F9127B2281ED1C000ECA7C /* UpdateViewController.swift */,
 				F9155982226FADA000F62EB4 /* Main.storyboard */,
 				F9155988226FADA100F62EB4 /* Assets.xcassets */,
 				F915598A226FADA100F62EB4 /* LaunchScreen.storyboard */,
@@ -309,6 +312,7 @@
 				F9AF71DB2274159B00D0BACC /* Student.swift in Sources */,
 				F9F91278227E40FD000ECA7C /* CreateUpdateViewController.swift in Sources */,
 				F91559B92270BCC300F62EB4 /* DisplayViewController.swift in Sources */,
+				F9F9127C2281ED1C000ECA7C /* UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
