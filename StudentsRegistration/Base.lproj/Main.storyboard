@@ -29,11 +29,11 @@
                                         </constraints>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onr-RB-vGm">
-                                        <rect key="frame" x="83.5" y="147" width="73" height="46"/>
+                                        <rect key="frame" x="68" y="147" width="104" height="46"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="46" id="6v8-0i-jXl"/>
                                         </constraints>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="28"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="40"/>
                                         <state key="normal" title="LogIn">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -45,7 +45,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="EZB-ad-MO6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="44r-oT-tpQ"/>
                             <constraint firstItem="EZB-ad-MO6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dl9-Ha-KZE"/>
